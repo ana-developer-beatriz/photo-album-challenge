@@ -1,3 +1,5 @@
 photo-album-challenge/.prettierrc
 photo-album-challenge/.eslintrc.js
 photo-album-challenge/src/.eslintrc.js
+photo-album-challenge/src/backend/package-lock.json
+photo-album-challenge/src/backend/node_modules
