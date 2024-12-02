@@ -1,0 +1,29 @@
+[
+  {
+    "_id": "1",
+    "name": "Alice Silva",
+    "email": "alice.silva@example.com",
+    "role": "admin",
+    "active": true,
+    "password_hash": "$2b$10$1234567890abcdef",
+    "session_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
+  },
+  {
+    "_id": "2",
+    "name": "João Pereira",
+    "email": "joao.pereira@example.com",
+    "role": "user",
+    "active": true,
+    "password_hash": "$2b$10$abcdef1234567890",
+    "session_token": ""
+  },
+  {
+    "_id": "1733093689142",
+    "name": "João",
+    "email": "joao@example.com",
+    "password_hash": "$2a$10$uTsB7/bLK8cGLkwhKOLTBOsS3MbVQbW4Y6S20YtOpx8RM6TH8Vta.",
+    "role": "",
+    "active": false,
+    "session_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTczMzA5MzY4OTE0MiIsImVtYWlsIjoiam9hb0BleGFtcGxlLmNvbSIsImlhdCI6MTczMzE0NDQzNSwiZXhwIjoxNzMzMTQ4MDM1fQ.X7suLPGAvf4qKaZIvkSG9C69ZawWPuMcOKFeVXxL4fk"
+  }
+]

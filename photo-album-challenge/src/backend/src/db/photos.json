@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "albumId": 101,
+    "title": "Minha foto favorita",
+    "url": "https://via.placeholder.com/600/92c952",
+    "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+  },
+  {
+    "title": "Minha foto favorita",
+    "albumId": 101,
+    "url": "https://via.placeholder.com/600/92c952",
+    "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+    "id": "9aa97471-8156-4a49-bc97-346921e46e19"
+  },
+  {
+    "id": "1733096891067",
+    "title": "foto de 2024",
+    "url": "www.google.com",
+    "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+    "user_id": "1733093689142",
+    "albumId": 0
+  },
+  {
+    "title": "Minha foto favorita",
+    "albumId": 101,
+    "url": "https://via.placeholder.com/600/92c952",
+    "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+    "user_id": "1733093689142",
+    "id": "dbc1eeda-8ed8-453e-9923-398ef11b9d04"
+  }
+]
