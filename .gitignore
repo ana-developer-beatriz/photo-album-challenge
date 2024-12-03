@@ -3,3 +3,11 @@ photo-album-challenge/.eslintrc.js
 photo-album-challenge/src/.eslintrc.js
 photo-album-challenge/src/backend/package-lock.json
 photo-album-challenge/src/backend/node_modules
+
+# Ignorar a pasta node_modules
+node_modules/
+# Ignorar arquivos gerados pelo npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tsbuildinfo
