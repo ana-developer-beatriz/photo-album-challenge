@@ -6,8 +6,4 @@ export interface IUser {
   active: boolean;
   password_hash: string;
   session_token: string;
-  
 }
-
-
-

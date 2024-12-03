@@ -1,19 +1,19 @@
-import fs from "fs/promises";
-import { v4 as uuidv4 } from "uuid";
-import { IPhoto } from "../models/IPhoto";
-import path from "path";
+import fs from 'fs/promises';
+import { v4 as uuidv4 } from 'uuid';
+import { IPhoto } from '../models/IPhoto';
+import path from 'path';
 
-const filePath = path.join(__dirname, "../db/photos.json");
+const filePath = path.join(__dirname, '../db/photos.json');
 
 //const filePath = "../db/photos.json";
 
 async function readData(): Promise<IPhoto[]> {
   try {
-    const data = await fs.readFile(filePath, "utf-8");
+    const data = await fs.readFile(filePath, 'utf-8');
     return JSON.parse(data);
   } catch (error) {
-    if (error === "ENOENT") {
-      console.log(error)
+    if (error === 'ENOENT') {
+      console.log(error);
       return [];
     }
     throw error;
@@ -24,11 +24,11 @@ async function writeData(data: IPhoto[]): Promise<void> {
   await fs.writeFile(filePath, JSON.stringify(data, null, 2));
 }
 
-export async function createPhoto(photo: Omit<IPhoto, "id">): Promise<IPhoto> {
+export async function createPhoto(photo: Omit<IPhoto, 'id'>): Promise<IPhoto> {
   const photos = await readData();
   const newPhoto: IPhoto = {
     ...photo,
-    id: uuidv4(), 
+    id: uuidv4(),
   };
   photos.push(newPhoto);
   await writeData(photos);
@@ -49,7 +49,7 @@ export async function updatePhoto(id: string, updatedFields: Partial<IPhoto>): P
   const index = photos.findIndex((photo) => photo.id === id);
 
   if (index === -1) {
-    return null; 
+    return null;
   }
 
   const updatedPhoto = {
@@ -67,7 +67,7 @@ export async function deletePhoto(id: string): Promise<boolean> {
   const filteredPhotos = photos.filter((photo) => photo.id !== id);
 
   if (filteredPhotos.length === photos.length) {
-    return false; 
+    return false;
   }
 
   await writeData(filteredPhotos);

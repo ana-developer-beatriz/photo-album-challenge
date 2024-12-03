@@ -1,16 +1,15 @@
-import fs from "fs/promises";
-import { IUser } from "../models/IUser";
-import path from "path";
+import fs from 'fs/promises';
+import { IUser } from '../models/IUser';
+import path from 'path';
 
-
-const filePath = path.join(__dirname, "../db/users.json");
+const filePath = path.join(__dirname, '../db/users.json');
 
 export async function getUsers(): Promise<IUser[]> {
   try {
-    const data = await fs.readFile(filePath, "utf-8");
+    const data = await fs.readFile(filePath, 'utf-8');
     return JSON.parse(data);
   } catch (error) {
-    if (error === "ENOENT") {
+    if (error === 'ENOENT') {
       return [];
     }
     throw error;

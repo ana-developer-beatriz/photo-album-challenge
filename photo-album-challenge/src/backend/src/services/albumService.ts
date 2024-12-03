@@ -1,15 +1,15 @@
-import fs from "fs/promises";
-import path from "path";
-import { IAlbum } from "../models/IAlbum";
+import fs from 'fs/promises';
+import path from 'path';
+import { IAlbum } from '../models/IAlbum';
 
-const albumsFilePath = path.resolve(__dirname, "../db/albums.json");
+const albumsFilePath = path.resolve(__dirname, '../db/albums.json');
 
 export async function readAlbums(): Promise<IAlbum[]> {
   try {
-    const data = await fs.readFile(albumsFilePath, "utf-8");
+    const data = await fs.readFile(albumsFilePath, 'utf-8');
     return JSON.parse(data);
   } catch (error: any) {
-    if (error.code === "ENOENT") {
+    if (error.code === 'ENOENT') {
       return [];
     }
     throw error;

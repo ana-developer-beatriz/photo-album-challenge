@@ -5,5 +5,4 @@ export interface IPhoto {
   url: string;
   thumbnailUrl: string;
   user_id: string;
-  
 }
