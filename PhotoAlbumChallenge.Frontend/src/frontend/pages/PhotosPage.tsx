@@ -100,43 +100,39 @@ export default function PhotoDetailsPage() {
       {success && <p style={{ color: 'green' }}>{success}</p>}
 
       {photos.length > 0 ? (
-        <div>
-          {photos.map((photo) => (
-            <div key={photo.id} style={{ marginBottom: '20px' }}>
-              <h2
-                style={{
-                  marginBottom: '10px',
-                  fontSize: '24px',
-                  color: '#555',
-                  textAlign: 'center',
-                  borderBottom: '1px solid #ddd',
-                  paddingBottom: '10px',
-                }}
-              >
-                {photo.title}
-              </h2>
-              <img
-                src={photo.url}
-                alt={photo.title}
-                style={{
-                  width: '100%',
-                  maxWidth: '500px',
-                  borderRadius: '10px',
-                  boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
-                  margin: '0 auto',
-                  display: 'block',
-                }}
-              />
-            </div>
-          ))}
-        </div>
-      ) : (
-        <p style={{ color: '#777' }}>Nenhuma foto encontrada.</p>
-      )}
+  <div
+    style={{
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fill, minmax(150px, 1fr))',
+      gap: '10px',
+      justifyContent: 'center',
+    }}
+  >
+    {photos.map((photo) => (
+      <div key={photo.id} style={{ textAlign: 'center' }}>
+        <img
+          src={photo.url}
+          alt={photo.title}
+          style={{
+            width: '100%',
+            maxWidth: '150px',
+            height: '150px',
+            objectFit: 'cover',
+            borderRadius: '10px',
+            boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
+          }}
+        />
+        <p style={{ marginTop: '10px', fontSize: '14px', color: '#555' }}>{photo.title}</p>
+      </div>
+    ))}
+  </div>
+) : (
+  <p style={{ color: '#777' }}>Nenhuma foto encontrada.</p>
+)}
 
       {isAllowedToCreate && (
         <div style={{ marginTop: '40px' }}>
-          <h3 style={{ color: '#333' }}>Criar Nova Foto agora</h3>
+          <h3 style={{ color: '#333' }}>Criar Nova Foto</h3>
           <input
             type="text"
             value={newTitle}
