@@ -22,13 +22,25 @@ Now, the site should be running in [http://localhost:3000](http://localhost:3000
 Pages on the frontend:
 
 * Login Page: Provide access to authentic users using JWTs (JSON Web Tokens). Redirects to the "My Albums" page if the login is successful.
+ ![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/image.png)
 * Register page: Allows a new user to register in the application.
+   ![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/registreUser.png)
+  
 * User List: Lists all users registered on the application, and provides a "See Albums" button for each user listed, redirecting to a user's album page.
+  
+  ![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/usersAlbums.png)
 * User Albums: Lists all albums submited by a user, and provides a "View Photos" button for each album, redirecting to the Album Photos page.
-* My Albums: Lists all albums submited by the current user. Allow the user to create a new Album, and includes "View Photos", and "Delete" buttons for each existent Album.
-* Album Photos: Lists all photos of a existent album.
-* My Album Photos: Lists all photos of a user belonging album.
 
+  ![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/listAlbumsOtherUsers.png)
+
+* My Albums: Lists all albums submited by the current user. Allow the user to create a new Album, and includes "View Photos", and "Delete" buttons for each existent Album.
+ ![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/myAlbumsPage.png)
+
+* Album Photos: Lists all photos of a existent album.
+* ![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/photoDetailsTheOtherUser.png)
+  
+* My Album Photos: Lists all photos of a user belonging album.
+![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/PhotosPage.png)
 ### Backend
 The Backend consists in 11 endpoints:
 * /createPhotos -> Submit a new photo
