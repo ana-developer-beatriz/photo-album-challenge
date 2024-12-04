@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Meu álbum incrível",
+    "userId": 1,
+    "id": 101
+  },
+  {
+    "id": "1733243178037",
+    "userId": "1733093689142",
+    "title": "Meu album de gal costa com rita"
+  },
+  {
+    "id": "1733268894119",
+    "userId": "1733093689142",
+    "title": "album de fotos do 15"
+  },
+  {
+    "id": "1733280868931",
+    "userId": "1733093689142",
+    "title": "foto com o chorão"
+  },
+  {
+    "id": "1733281465959",
+    "userId": "1733093689142",
+    "title": "fotos ainda estou aqui"
+  },
+  {
+    "id": "1733281626959",
+    "userId": "1733093689142",
+    "title": "fotos ainda estou aqui"
+  },
+  {
+    "id": "1733281684687",
+    "userId": "1733186094820",
+    "title": "fotos ainda estou aqui em HD"
+  },
+  {
+    "id": "1733317167719",
+    "userId": "1733093689142",
+    "title": "Fotos da formatura"
+  },
+  {
+    "id": "1733317590718",
+    "userId": "1733093689142",
+    "title": "Fotos do estágio"
+  }
+]

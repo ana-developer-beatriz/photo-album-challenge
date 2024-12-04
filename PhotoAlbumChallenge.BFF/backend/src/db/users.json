@@ -1,0 +1,74 @@
+[
+  {
+    "_id": "1",
+    "name": "Alice Silva",
+    "email": "alice.silva@example.com",
+    "role": "admin",
+    "active": true,
+    "password_hash": "$2b$10$1234567890abcdef",
+    "session_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
+  },
+  {
+    "_id": "2",
+    "name": "João Pereira",
+    "email": "joao.pereira@example.com",
+    "role": "user",
+    "active": true,
+    "password_hash": "$2b$10$abcdef1234567890",
+    "session_token": ""
+  },
+  {
+    "_id": "1733093689142",
+    "name": "João",
+    "email": "joao@example.com",
+    "password_hash": "$2a$10$uTsB7/bLK8cGLkwhKOLTBOsS3MbVQbW4Y6S20YtOpx8RM6TH8Vta.",
+    "role": "",
+    "active": false,
+    "session_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTczMzA5MzY4OTE0MiIsImVtYWlsIjoiam9hb0BleGFtcGxlLmNvbSIsImlhdCI6MTczMzMyMzM1NiwiZXhwIjoxNzMzMzI2OTU2fQ.r4KEYGePM75r7vDWfEsHGuwPmoeNzimFgmLayozyoeM"
+  },
+  {
+    "_id": "1733185769853",
+    "name": "ana",
+    "email": "ana@teste",
+    "password_hash": "$2a$10$wN/xFq3V8Jx4PKWIA.TkkugIoMRBWlCF1yl1KHDtq4IRIWN5Mo7v6",
+    "role": "",
+    "active": false,
+    "session_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYUB0ZXN0ZSIsInVzZXJfaWQiOiIxNzMzMTg1NzY5ODUzIiwiaWF0IjoxNzMzMTg1NzY5LCJleHAiOjE3MzMxODkzNjl9.LV5yv4i8whVunGFVt3skVaXxyES687SOiv0S8U5pyjU"
+  },
+  {
+    "_id": "1733185853068",
+    "name": "ana",
+    "email": "ana@testando",
+    "password_hash": "$2a$10$0QU3kEDhhKYSpovgxqTSa.fBQEKA3XqdOxKMOD9cjgkNx1ABByVwu",
+    "role": "",
+    "active": false,
+    "session_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYUB0ZXN0YW5kbyIsInVzZXJfaWQiOiIxNzMzMTg1ODUzMDY4IiwiaWF0IjoxNzMzMTg1ODUzLCJleHAiOjE3MzMxODk0NTN9.II6nstA_JpEezfm-xnaxeYA0QPxPidIEGSlMX6kUODE"
+  },
+  {
+    "_id": "1733185989236",
+    "name": "lucas",
+    "email": "lucas@teste",
+    "password_hash": "$2a$10$tx7ufLm24QHDpGVumWDDZeAfWuCfZWY/9OUQo.VlU0jZVTVO3Fm/.",
+    "role": "",
+    "active": false,
+    "session_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imx1Y2FzQHRlc3RlIiwidXNlcl9pZCI6IjE3MzMxODU5ODkyMzYiLCJpYXQiOjE3MzMxODU5ODksImV4cCI6MTczMzE4OTU4OX0.r45uChbNKqbOrj10a381MOoKep2zpjSN0Xl4ecp5dOc"
+  },
+  {
+    "_id": "1733186094820",
+    "name": "lucas lover",
+    "email": "lucaslover@gmail.com",
+    "password_hash": "$2a$10$DsSVBlcUPpYxFQTmcn7QCu91kGG4/rEJad9Iee7W9FxupWe1xfmwq",
+    "role": "",
+    "active": false,
+    "session_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTczMzE4NjA5NDgyMCIsImVtYWlsIjoibHVjYXNsb3ZlckBnbWFpbC5jb20iLCJpYXQiOjE3MzMzMTM2NzIsImV4cCI6MTczMzMxNzI3Mn0.IDF2_g5c4TYjzWpysdLC61jVHXJnqRGf_dzBb1LGCOY"
+  },
+  {
+    "_id": "1733193334981",
+    "name": "ana",
+    "email": "ana@gmail.com",
+    "password_hash": "$2a$10$QmspCrYteQMNcS8kgSSsK.ks0Ej1GEclV4OAnMYHT13mqf3van7Wu",
+    "role": "",
+    "active": false,
+    "session_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTczMzE5MzMzNDk4MSIsImVtYWlsIjoiYW5hQGdtYWlsLmNvbSIsImlhdCI6MTczMzE5MzM1MiwiZXhwIjoxNzMzMTk2OTUyfQ.yBsuvnRbXIaSUFXxKzj9EgZHOQfa1ZbXoYC1-iDzROE"
+  }
+]

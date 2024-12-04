@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "albumId": 101,
+    "title": "Minha foto favorita",
+    "url": "https://via.placeholder.com/600/92c952",
+    "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+  },
+  {
+    "title": "Minha foto favorita",
+    "albumId": "101",
+    "url": "https://via.placeholder.com/600/92c952",
+    "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+    "id": "9aa97471-8156-4a49-bc97-346921e46e19"
+  },
+  {
+    "id": "1733096891067",
+    "title": "foto de 2024",
+    "url": "www.google.com",
+    "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+    "user_id": "1733093689142",
+    "albumId": 0
+  },
+  {
+    "title": "Minha foto favorita",
+    "albumId": 101,
+    "url": "https://via.placeholder.com/600/92c952",
+    "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+    "user_id": "1733093689142",
+    "id": "dbc1eeda-8ed8-453e-9923-398ef11b9d04"
+  },
+  {
+    "title": "foto de familia",
+    "albumId": 9,
+    "url": "https://via.placeholder.com/600/92c952",
+    "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+    "user_id": "1733093689142",
+    "id": "ea2ce9f3-02aa-4adc-b15d-fbf544fc0def"
+  },
+  {
+    "title": "foto do meu aniversário",
+    "albumId": "9",
+    "url": "https://via.placeholder.com/600/92c952",
+    "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+    "user_id": "1733093689142",
+    "id": "47af838c-7b5a-4be7-b551-cfbd8356e632"
+  },
+  {
+    "title": "Dia que andei 100km de bike",
+    "albumId": "9",
+    "url": "https://via.placeholder.com/600/92c952",
+    "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+    "user_id": "1733093689142",
+    "id": "688e0bbb-371a-43e4-ab74-1eaa12a58968"
+  },
+  {
+    "title": "Dia que andei 100km de bike",
+    "albumId": "1733240103274",
+    "url": "https://via.placeholder.com/600/92c952",
+    "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+    "user_id": "1733186094820",
+    "id": "279f6e1c-43cb-4be9-aa8f-95f135c12a2e"
+  },
+  {
+    "title": "Dia que jogamos catan",
+    "albumId": "1733240103274",
+    "url": "https://via.placeholder.com/600/92c952",
+    "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+    "user_id": "1733186094820",
+    "id": "b6dd5d03-03bc-4f63-8a2a-0ad1ee0aaffa"
+  },
+  {
+    "title": "Dia que cai de moto",
+    "albumId": "1733240103274",
+    "url": "https://via.placeholder.com/600/92c952",
+    "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+    "user_id": "1733186094820",
+    "id": "49eeb78e-5775-4fc2-9a2b-aa24e77232a5"
+  },
+  {
+    "title": "o sorriso de chorao",
+    "albumId": "1733280868931",
+    "url": "https://via.placeholder.com/600/92c952",
+    "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+    "user_id": "1733093689142",
+    "id": "25bec300-8333-4da1-a371-9d39672b59db"
+  },
+  {
+    "title": "Fotos tiradas no cinema",
+    "albumId": "1733280868931",
+    "url": "https://via.placeholder.com/600/92c952",
+    "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+    "user_id": "1733186094820",
+    "id": "5c145f3e-14f3-4ee9-a17d-239ba9696033"
+  },
+  {
+    "title": "Fotos tiradas no cinema",
+    "albumId": "1733280868931",
+    "url": "https://via.placeholder.com/600/92c952",
+    "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+    "user_id": "1733186094820",
+    "id": "1ade4dad-db47-40c6-9d0b-384bc4d81bd1"
+  },
+  {
+    "title": "Fotos tiradas no cinema",
+    "albumId": "1733281684687",
+    "url": "https://via.placeholder.com/600/92c952",
+    "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+    "user_id": "1733186094820",
+    "id": "c1ea164d-b00a-44c9-bb87-e007355bc941"
+  },
+  {
+    "title": "Fotos tiradas no cinema",
+    "albumId": "1733281684687",
+    "url": "https://via.placeholder.com/600/92c952",
+    "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+    "user_id": "1733186094820",
+    "id": "6a3c56eb-6ae1-4589-b237-3a7eff13b2d3"
+  }
+]
