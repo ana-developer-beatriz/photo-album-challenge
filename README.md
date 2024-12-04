@@ -1,14 +1,14 @@
 # A photo album management app built for a technical challenge, enabling users to organize and display their photos efficiently.
 
 # Getting Started
-## The first step to run the project is to clone this git repository, to do this use the command git clone 'this repo url'
+The first step to run the project is to clone this git repository, to do this use the command git clone 'this repo url'
 
-### To set up the project locally, you need to run 2 node projects. For that you need node.js and npm installed. You can learn how to do it here: [https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](downloading-and-installing-node-js-and-npm).
+ To set up the project locally, you need to run 2 node projects. For that you need node.js and npm installed. You can learn how to do it here: [https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](downloading-and-installing-node-js-and-npm).
 
-## For the next step, open a terminal console in the PhotoAlbumChallenge.BFF folder, inside the git repository directory. Once inside the backend folder, run the following commands:
+ For the next step, open a terminal console in the PhotoAlbumChallenge.BFF folder, inside the git repository directory. Once inside the backend folder, run the following commands:
 
-npm install
-npm run dev
+`npm install`
+`npm run dev`
 
 Now, move to the PhotoAlbumChallenge.Frontend folder, and run the following commands:
 
