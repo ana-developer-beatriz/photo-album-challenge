@@ -78,30 +78,6 @@
     "id": "49eeb78e-5775-4fc2-9a2b-aa24e77232a5"
   },
   {
-    "title": "o sorriso de chorao",
-    "albumId": "1733280868931",
-    "url": "https://via.placeholder.com/600/92c952",
-    "thumbnailUrl": "https://via.placeholder.com/150/92c952",
-    "user_id": "1733093689142",
-    "id": "25bec300-8333-4da1-a371-9d39672b59db"
-  },
-  {
-    "title": "Fotos tiradas no cinema",
-    "albumId": "1733280868931",
-    "url": "https://via.placeholder.com/600/92c952",
-    "thumbnailUrl": "https://via.placeholder.com/150/92c952",
-    "user_id": "1733186094820",
-    "id": "5c145f3e-14f3-4ee9-a17d-239ba9696033"
-  },
-  {
-    "title": "Fotos tiradas no cinema",
-    "albumId": "1733280868931",
-    "url": "https://via.placeholder.com/600/92c952",
-    "thumbnailUrl": "https://via.placeholder.com/150/92c952",
-    "user_id": "1733186094820",
-    "id": "1ade4dad-db47-40c6-9d0b-384bc4d81bd1"
-  },
-  {
     "title": "Fotos tiradas no cinema",
     "albumId": "1733281684687",
     "url": "https://via.placeholder.com/600/92c952",
@@ -132,5 +108,37 @@
     "thumbnailUrl": "https://via.placeholder.com/150/92c952",
     "user_id": "1733093689142",
     "id": "2bf69741-b7f4-4587-9f48-9d5ed07bbe57"
+  },
+  {
+    "title": "Fotos tiradas no cinema",
+    "albumId": "1733317590718",
+    "url": "https://via.placeholder.com/600/92c952",
+    "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+    "user_id": "1733093689142",
+    "id": "04bcd921-792c-4c64-b7d8-0c85e5dca42f"
+  },
+  {
+    "title": "dia de academia",
+    "albumId": "1733317167719",
+    "url": "https://via.placeholder.com/600/92c952",
+    "thumbnailUrl": "https://via.placeholder.com/600/92c952",
+    "user_id": "1733093689142",
+    "id": "9cc08fdf-51cd-498b-85dd-56df1c30975d"
+  },
+  {
+    "title": "minhas gerais",
+    "albumId": "1733268894119",
+    "url": "https://photos-albums-bucket.s3.us-east-2.amazonaws.com/photos/1733364829478-e0dc5ce7cac787cfbb2c5df48777246a.jpg",
+    "thumbnailUrl": "https://photos-albums-bucket.s3.us-east-2.amazonaws.com/photos/1733364829478-e0dc5ce7cac787cfbb2c5df48777246a.jpg",
+    "user_id": "1733093689142",
+    "id": "52193017-e57c-4c28-83f5-b58709516d64"
+  },
+  {
+    "title": "minhas gerais",
+    "albumId": "1733268894119",
+    "url": "https://photos-albums-bucket.s3.us-east-2.amazonaws.com/photos/1733364856030-1b34926b87718a2f5758609b97626b81.jpg",
+    "thumbnailUrl": "https://photos-albums-bucket.s3.us-east-2.amazonaws.com/photos/1733364856030-1b34926b87718a2f5758609b97626b81.jpg",
+    "user_id": "1733093689142",
+    "id": "c6dd8956-2d1a-4140-8b71-dbcc7cbae908"
   }
 ]
