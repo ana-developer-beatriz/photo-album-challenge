@@ -3,10 +3,14 @@ import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import { IUser } from '../models/IUser';
 import { getUsers, saveUsers } from '../services/userService';
+import dotenv from 'dotenv';
 
 const saltRounds = 10;
-// const { JWT_SECRET } = process.env;
-const JWT_SECRET = 'SECRET';
+dotenv.config();
+const { JWT_SECRET } = process.env;
+if (!JWT_SECRET) {
+  throw new Error('JWT_SECRET is not defined in the .env file');
+}
 
 export const signupController = async (req: Request, res: Response): Promise<void> => {
   const { email, password, name } = req.body;
