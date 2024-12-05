@@ -11,3 +11,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 *.tsbuildinfo
+PhotoAlbumChallenge.BFF/backend/.env
+PhotoAlbumChallenge.BFF/backend/.env
+PhotoAlbumChallenge.BFF/backend/package-lock.json
