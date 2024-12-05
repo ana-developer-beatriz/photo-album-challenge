@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  parser: "@typescript-eslint/parser",
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: 'module',
@@ -19,11 +19,11 @@ module.exports = {
     amd: true,
     node: true,
   },
-  plugins: ["react", "@typescript-eslint"],
+  plugins: ['react', '@typescript-eslint'],
   extends: ['eslint:recommended', 'plugin:react/recommended', 'plugin:prettier/recommended'],
   rules: {
-    'no-unused-vars': ['error', { vars: 'all', args: 'after-used', ignoreRestSiblings: false, argsIgnorePattern: '^_',}],
+    'no-unused-vars': ['error', { vars: 'all', args: 'after-used', ignoreRestSiblings: false, argsIgnorePattern: '^_' }],
     'prettier/prettier': ['error', {}, { usePrettierrc: true }],
-     'react/prop-types': 'off'
+    'react/prop-types': 'off',
   },
 };
