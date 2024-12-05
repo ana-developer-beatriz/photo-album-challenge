@@ -1,14 +1,14 @@
 # A photo album management app built for a technical challenge, enabling users to organize and display their photos efficiently.
 
 # Getting Started
-## The first step to run the project is to clone this git repository, to do this use the command git clone 'this repo url'
+The first step to run the project is to clone this git repository, to do this use the command git clone 'this repo url'
 
-### To set up the project locally, you need to run 2 node projects. For that you need node.js and npm installed. You can learn how to do it here: [https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](downloading-and-installing-node-js-and-npm).
+ To set up the project locally, you need to run 2 node projects. For that you need node.js and npm installed. You can learn how to do it here: [https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](downloading-and-installing-node-js-and-npm).
 
-## For the next step, open a terminal console in the PhotoAlbumChallenge.BFF folder, inside the git repository directory. Once inside the backend folder, run the following commands:
+ For the next step, open a terminal console in the PhotoAlbumChallenge.BFF folder, inside the git repository directory. Once inside the backend folder, run the following commands:
 
-npm install
-npm run dev
+`npm install`
+`npm run dev`
 
 Now, move to the PhotoAlbumChallenge.Frontend folder, and run the following commands:
 
@@ -22,13 +22,25 @@ Now, the site should be running in [http://localhost:3000](http://localhost:3000
 Pages on the frontend:
 
 * Login Page: Provide access to authentic users using JWTs (JSON Web Tokens). Redirects to the "My Albums" page if the login is successful.
+ ![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/image.png)
 * Register page: Allows a new user to register in the application.
+   ![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/registreUser.png)
+  
 * User List: Lists all users registered on the application, and provides a "See Albums" button for each user listed, redirecting to a user's album page.
+  
+  ![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/usersAlbums.png)
 * User Albums: Lists all albums submited by a user, and provides a "View Photos" button for each album, redirecting to the Album Photos page.
-* My Albums: Lists all albums submited by the current user. Allow the user to create a new Album, and includes "View Photos", and "Delete" buttons for each existent Album.
-* Album Photos: Lists all photos of a existent album.
-* My Album Photos: Lists all photos of a user belonging album.
 
+  ![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/listAlbumsOtherUsers.png)
+
+* My Albums: Lists all albums submited by the current user. Allow the user to create a new Album, and includes "View Photos", and "Delete" buttons for each existent Album.
+ ![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/myAlbumsPage.png)
+
+* Album Photos: Lists all photos of a existent album.
+* ![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/photoDetailsTheOtherUser.png)
+  
+* My Album Photos: Lists all photos of a user belonging album.
+![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/PhotosPage.png)
 ### Backend
 The Backend consists in 11 endpoints:
 * /createPhotos -> Submit a new photo
