@@ -22,25 +22,29 @@ Now, the site should be running in [http://localhost:3000](http://localhost:3000
 Pages on the frontend:
 
 * Login Page: Provide access to authentic users using JWTs (JSON Web Tokens). Redirects to the "My Albums" page if the login is successful.
- ![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/image.png)
-* Register page: Allows a new user to register in the application.
-   ![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/registreUser.png)
   
+ ![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/loginPage.png)
+
+* Register page: Allows a new user to register in the application.
+*  ![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/registerPage.png)
+
 * User List: Lists all users registered on the application, and provides a "See Albums" button for each user listed, redirecting to a user's album page.
   
-  ![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/usersAlbums.png)
+  ![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/UserList.png)
+  
 * User Albums: Lists all albums submited by a user, and provides a "View Photos" button for each album, redirecting to the Album Photos page.
-
-  ![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/listAlbumsOtherUsers.png)
+  ![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/albumsToOhterUser.png)
 
 * My Albums: Lists all albums submited by the current user. Allow the user to create a new Album, and includes "View Photos", and "Delete" buttons for each existent Album.
- ![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/myAlbumsPage.png)
+ ![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/MyAlbums.png)
 
 * Album Photos: Lists all photos of a existent album.
-* ![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/photoDetailsTheOtherUser.png)
   
+  ![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/photosOtherUser.png)
+
 * My Album Photos: Lists all photos of a user belonging album.
-![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/PhotosPage.png)
+  
+![](https://github.com/ana-developer-beatriz/photo-album-challenge/blob/main/frontend-screenshots/MyPhotosList.png)
 ### Backend
 The Backend consists in 11 endpoints:
 * /createPhotos -> Submit a new photo
@@ -53,10 +57,9 @@ The Backend consists in 11 endpoints:
 * /album/getAlbumById/:id -> Return an existent Album by it's Id
 * /album/updateAlbum/:id -> Updates an existent Album by it's Id
 * /album/deleteAlbum/:id -> Deletes an existent Album by it's Id
+* /photoUpload/upload -> Uploads a photo to the server.
 
 ### Next steps
-* Photo Upload with AWS S3: Implement the functionality for uploading photos using Amazon S3. A previous attempt to use Base64 encoding was deemed impractical due to the large payload size generated when converting the image. AWS S3 offers a more efficient solution for managing image uploads.
-
 * Backend For Frontend (BFF) Architecture: Extend the BFF architecture across the entire backend. Currently, this structure is applied to only one controller.
 
 * Unit Testing: Implement comprehensive unit tests for all frontend components and backend functionalities to ensure code reliability and maintainability.
