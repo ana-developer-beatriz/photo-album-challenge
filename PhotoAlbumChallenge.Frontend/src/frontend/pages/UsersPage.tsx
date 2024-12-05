@@ -12,13 +12,13 @@ export default function UsersPage() {
       try {
         const response = await fetch('http://localhost:5000/users/listUsers');
         if (!response.ok) {
-          throw new Error('Falha ao carregar usuários.');
+          throw new Error('Failed to load users.');
         }
 
         const data = await response.json();
         setUsers(data.users);
       } catch (error) {
-        setError('Erro ao carregar usuários.');
+        setError('Error loading users.');
       }
     };
     fetchUsers();
@@ -48,7 +48,7 @@ export default function UsersPage() {
           fontSize: '24px',
         }}
       >
-        Lista de Usuários
+        User List
       </h1>
 
       {error && <p style={{ color: 'red', textAlign: 'center' }}>{error}</p>}
@@ -87,7 +87,7 @@ export default function UsersPage() {
                 marginTop: '10px',
               }}
             >
-              Ver Álbuns
+              View Albums
             </Button>
           </li>
         ))}

@@ -33,18 +33,18 @@ export default function LoginPage() {
 
       if (sessionToken) {
         localStorage.setItem('session_token', sessionToken);
-        setSuccess('Login realizado com sucesso!');
+        setSuccess('Login successful!');
         setError('');
 
         setTimeout(() => {
           window.location.href = '/myAlbums/';
         }, 1000);
       } else {
-        setError('Cabeçalho de autorização não encontrado');
+        setError('Authorization header not found');
         setSuccess('');
       }
     } catch (error) {
-      console.error('Erro na requisição de login:', error);
+      console.error('Error in the login request:', error);
     }
   };
 
@@ -89,16 +89,16 @@ export default function LoginPage() {
       {error && <p style={{ color: 'red' }}>{error}</p>}
 
       <form onSubmit={handleSubmit}>
-        <InputField label='E-mail' placeholder='Digite seu e-mail' type='email' value={email} onChange={handleEmailChange} />
-        <InputField label='Senha' placeholder='Digite sua senha' type='password' value={password} onChange={handlePasswordChange} />
+        <InputField label='E-mail' placeholder='Enter your email' type='email' value={email} onChange={handleEmailChange} />
+        <InputField label='Senha' placeholder='Enter your password' type='password' value={password} onChange={handlePasswordChange} />
         <Button onPress={handleSubmit} state={buttonState}>
-          Entrar
+          Login
         </Button>
       </form>
 
       <div style={{ textAlign: 'center', marginTop: '20px' }}>
         <Button onPress={() => (window.location.href = '/register')} state={true}>
-          Registre-se
+          Sign Up
         </Button>
       </div>
     </div>

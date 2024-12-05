@@ -14,7 +14,7 @@ export default function RegisterPage() {
     event.preventDefault();
 
     if (password !== confirmPassword) {
-      setError('As senhas não coincidem');
+      setError('Passwords do not match');
       setSuccess('');
       return;
     }
@@ -35,14 +35,14 @@ export default function RegisterPage() {
         return;
       }
 
-      setSuccess('Registro efetuado com sucesso!');
+      setSuccess('Registration successful!');
       setError('');
 
       setTimeout(() => {
         window.location.href = '/';
       }, 1000);
     } catch (error) {
-      console.error('Erro na requisição de registro:', error);
+      console.error('Error in registration request:', error);
     }
   };
 
@@ -53,31 +53,31 @@ export default function RegisterPage() {
 
   return (
     <div style={{ maxWidth: '400px', margin: '0 auto', padding: '20px' }}>
-      <h1>Registre-se</h1>
+      <h1>Register</h1>
       {success && <p style={{ color: 'green' }}>{success}</p>}
       {error && <p style={{ color: 'red' }}>{error}</p>}
 
       <form onSubmit={handleSubmit}>
-        <InputField label='Nome de Usuário' placeholder='Digite seu nome' type='text' value={name} onChange={handleNameChange} />
-        <InputField label='E-mail' placeholder='Digite seu e-mail' type='email' value={email} onChange={handleEmailChange} />
-        <InputField label='Senha' placeholder='Digite sua senha' type='password' value={password} onChange={handlePasswordChange} />
+        <InputField label='Username' placeholder='Enter your name' type='text' value={name} onChange={handleNameChange} />
+        <InputField label='Email' placeholder='Enter your email' type='email' value={email} onChange={handleEmailChange} />
+        <InputField label='Password' placeholder='Enter your password' type='password' value={password} onChange={handlePasswordChange} />
         <InputField
-          label='Confirme sua Senha'
-          placeholder='Confirme sua senha'
+          label='Confirm Password'
+          placeholder='Confirm your password'
           type='password'
           value={confirmPassword}
           onChange={handleConfirmPasswordChange}
         />
         <Button onPress={handleSubmit} state={!!name && !!email && !!password && !!confirmPassword}>
-          Registrar
+          Register
         </Button>
       </form>
 
       <div style={{ textAlign: 'center', marginTop: '20px' }}>
         <p>
-          Já possui uma conta?{' '}
+          Already have an account?{' '}
           <span onClick={() => (window.location.href = '/login')} style={{ color: 'blue', cursor: 'pointer', textDecoration: 'underline' }}>
-            Faça login
+            Log in
           </span>
         </p>
       </div>

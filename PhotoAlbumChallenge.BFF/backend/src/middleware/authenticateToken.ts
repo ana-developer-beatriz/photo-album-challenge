@@ -3,9 +3,11 @@ import jwt from 'jsonwebtoken';
 import { IUser } from '../models/IUser';
 import fs from 'fs/promises';
 import path from 'path';
+import dotenv from 'dotenv';
+dotenv.config();
 
-// const JWT_SECRET = process.env.JWT_SECRET as string;
-const JWT_SECRET = 'SECRET';
+const JWT_SECRET = process.env.JWT_SECRET as string;
+
 const usersFilePath = path.resolve(__dirname, '../db/users.json');
 
 async function readUsers(): Promise<IUser[]> {

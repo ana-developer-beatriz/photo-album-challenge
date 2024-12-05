@@ -12,7 +12,7 @@ export default function MyAlbumsPage() {
   const fetchAlbums = async () => {
     const token = localStorage.getItem('session_token');
     if (!token) {
-      setError('Token não encontrado. Faça login novamente.');
+      setError('Token not found. Please log in again.');
       return;
     }
 
@@ -22,13 +22,13 @@ export default function MyAlbumsPage() {
       const response = await fetch(`http://localhost:5000/users/users/${userIdFromToken}/albums`);
 
       if (response.status === 404) {
-        setError('Nenhum álbum encontrado para este usuário.');
+        setError('No albums found for this user.');
         setAlbums([]);
         return;
       }
 
       if (!response.ok) {
-        setError('Erro ao buscar álbuns. Tente novamente mais tarde.');
+        setError('Error fetching albums. Please try again later.');
         return;
       }
 
@@ -36,8 +36,8 @@ export default function MyAlbumsPage() {
       setAlbums(data.albums);
       setError('');
     } catch (error) {
-      console.error('Erro ao buscar álbuns:', error);
-      setError('Erro inesperado ao buscar álbuns.');
+      console.error('Error fetching albums:', error);
+      setError('Unexpected error while fetching albums.');
     }
   };
 
@@ -48,11 +48,11 @@ export default function MyAlbumsPage() {
   const handleCreateAlbum = async () => {
     const token = localStorage.getItem('session_token');
     if (!token) {
-      alert('Token não encontrado. Faça login novamente.');
+      alert('Token not found. Please log in again.');
       return;
     }
 
-    const title = prompt('Digite o título do álbum:');
+    const title = prompt('Enter the album title:');
     if (!title) return;
 
     try {
@@ -68,20 +68,20 @@ export default function MyAlbumsPage() {
       });
 
       if (response.ok) {
-        alert('Álbum criado com sucesso!');
+        alert('Album created successfully!');
         fetchAlbums();
       } else {
-        alert('Erro ao criar álbum.');
+        alert('Error creating album.');
       }
     } catch (error) {
-      console.error('Erro ao criar álbum:', error);
+      console.error('Error creating album:', error);
     }
   };
 
   const handleDeleteAlbum = async (albumId: string) => {
     const token = localStorage.getItem('session_token');
     if (!token) {
-      alert('Token não encontrado. Faça login novamente.');
+      alert('Token not found. Please log in again.');
       return;
     }
 
@@ -95,13 +95,13 @@ export default function MyAlbumsPage() {
       });
 
       if (response.ok) {
-        alert('Álbum deletado com sucesso!');
+        alert('Album deleted successfully!');
         fetchAlbums();
       } else {
-        alert('Erro ao deletar álbum.');
+        alert('Error deleting album.');
       }
     } catch (error) {
-      console.error('Erro ao deletar álbum:', error);
+      console.error('Error deleting album:', error);
     }
   };
 
@@ -114,7 +114,7 @@ export default function MyAlbumsPage() {
         padding: '20px',
       }}
     >
-      <h1 style={{ marginBottom: '20px', color: '#333' }}>Meus Álbuns</h1>
+      <h1 style={{ marginBottom: '20px', color: '#333' }}>My Albums</h1>
 
       <div style={{ marginBottom: '20px', display: 'flex', gap: '10px' }}>
         <button
@@ -128,7 +128,7 @@ export default function MyAlbumsPage() {
             cursor: 'pointer',
           }}
         >
-          Criar Álbum
+          Create Album
         </button>
 
         <button
@@ -142,7 +142,7 @@ export default function MyAlbumsPage() {
             cursor: 'pointer',
           }}
         >
-          Ver Álbuns de Outros Usuários
+          View Albums of Other Users
         </button>
       </div>
 
@@ -194,7 +194,7 @@ export default function MyAlbumsPage() {
                     cursor: 'pointer',
                   }}
                 >
-                  Ver Fotos
+                  View Photos
                 </button>
                 <button
                   onClick={() => handleDeleteAlbum(album.id)}
@@ -207,7 +207,7 @@ export default function MyAlbumsPage() {
                     cursor: 'pointer',
                   }}
                 >
-                  Deletar
+                  Delete
                 </button>
               </div>
             </div>
