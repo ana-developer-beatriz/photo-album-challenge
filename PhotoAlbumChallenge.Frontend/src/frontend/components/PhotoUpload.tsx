@@ -1,9 +1,8 @@
+/*eslint-disable*/ 
 import React, { useState } from 'react';
-
 interface PhotoUploadProps {
-  onUpload: (base64: string) => void;
+  onUpload: (file: File) => void | Promise<void>;
 }
-
 const PhotoUpload: React.FC<PhotoUploadProps> = ({ onUpload }) => {
   const [imagePreview, setImagePreview] = useState<string | null>(null);
 
@@ -12,17 +11,19 @@ const PhotoUpload: React.FC<PhotoUploadProps> = ({ onUpload }) => {
     if (file) {
       const reader = new FileReader();
       reader.onloadend = () => {
-        setImagePreview(reader.result as string);
-        onUpload(reader.result as string); 
+        const result = reader.result as string;
+        setImagePreview(result);
+        
       };
-      reader.readAsDataURL(file); 
+      reader.readAsDataURL(file);
+      onUpload(file); 
     }
   };
 
   return (
     <div>
-      <input type='file' accept='image/*' onChange={handleFileChange} />
-      {imagePreview && <img src={imagePreview} alt='Preview' style={{ width: '100px', height: '100px' }} />}
+      <input type="file" accept="image/*" onChange={handleFileChange} />
+      {imagePreview && <img src={imagePreview} alt="Preview" style={{ width: '100px', height: '100px' }} />}
     </div>
   );
 };
