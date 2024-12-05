@@ -24,7 +24,7 @@
     "password_hash": "$2a$10$uTsB7/bLK8cGLkwhKOLTBOsS3MbVQbW4Y6S20YtOpx8RM6TH8Vta.",
     "role": "",
     "active": false,
-    "session_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTczMzA5MzY4OTE0MiIsImVtYWlsIjoiam9hb0BleGFtcGxlLmNvbSIsImlhdCI6MTczMzM2NDU2NiwiZXhwIjoxNzMzMzY4MTY2fQ.i1qzMEoV7bVuhYlKs46L2Su2i4L0vbO73DUXsQoFPTE"
+    "session_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTczMzA5MzY4OTE0MiIsImVtYWlsIjoiam9hb0BleGFtcGxlLmNvbSIsImlhdCI6MTczMzQxMTQ4MywiZXhwIjoxNzMzNDE1MDgzfQ.P_o2Y4CcJmOOlRUmarD6HxdOGL4FeyJAeaFu2-lehXQ"
   },
   {
     "_id": "1733185769853",
@@ -60,7 +60,7 @@
     "password_hash": "$2a$10$DsSVBlcUPpYxFQTmcn7QCu91kGG4/rEJad9Iee7W9FxupWe1xfmwq",
     "role": "",
     "active": false,
-    "session_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTczMzE4NjA5NDgyMCIsImVtYWlsIjoibHVjYXNsb3ZlckBnbWFpbC5jb20iLCJpYXQiOjE3MzMzMTM2NzIsImV4cCI6MTczMzMxNzI3Mn0.IDF2_g5c4TYjzWpysdLC61jVHXJnqRGf_dzBb1LGCOY"
+    "session_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTczMzE4NjA5NDgyMCIsImVtYWlsIjoibHVjYXNsb3ZlckBnbWFpbC5jb20iLCJpYXQiOjE3MzM0MDg2MTksImV4cCI6MTczMzQxMjIxOX0.s7IU6RUqEDkhIVKWGVnRXOLzmUfYH1KpzqsHkdKdZsY"
   },
   {
     "_id": "1733193334981",
