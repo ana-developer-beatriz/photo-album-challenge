@@ -13,4 +13,3 @@ yarn-error.log*
 *.tsbuildinfo
 PhotoAlbumChallenge.BFF/backend/.env
 PhotoAlbumChallenge.BFF/backend/.env
-PhotoAlbumChallenge.BFF/backend/package-lock.json
