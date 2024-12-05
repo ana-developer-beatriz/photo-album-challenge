@@ -5,8 +5,6 @@ import path from 'path';
 
 const filePath = path.join(__dirname, '../db/photos.json');
 
-//const filePath = "../db/photos.json";
-
 async function readData(): Promise<IPhoto[]> {
   try {
     const data = await fs.readFile(filePath, 'utf-8');
